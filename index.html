@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Game Plus</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/itc-korinna-std" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <img class="logo m-0" src="images/logo.png" alt="">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#news">
+                            <i class="bi bi-newspaper"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#games">
+                            <i class="bi bi-controller"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Suporte
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/re4.webp" alt="RE4">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/dragons-dogma.avif" alt="dragons dogma">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/megaman-x-dive.jpg" alt="megaman">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <spa class="carousel-control-prev-icon"></spa>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <spa class="carousel-control-next-icon"></spa>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/frente-loja.jpg" class="d-block w-100 rounded" alt="espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a New Game Plus</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam mollitia doloremque et
+                                tenetur aspernatur vero quod ipsa maiores quo ex quaerat cumque, illum quam voluptates
+                                veniam architecto dignissimos iusto inventore.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a loja NGP</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quas totam maiores
+                                explicabo iste suscipit inventore provident molestiae quaerat facere nulla nemo facilis
+                                voluptates, assumenda laudantium nobis quam quidem. Nisi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Novas <span class="text-colored">Notícias</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/hogwarts.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-magic"></i>
+                            Jogo mais vendido de 2023!
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto quod a blanditiis
+                            eveniet sed deleniti iure eum distinctio. Doloremque eum aliquam necessitatibus sint illum
+                            provident, quisquam rerum aspernatur dolore.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/minecraft.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-ban"></i>
+                            Pirataria nos Games cresce!
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto quod a blanditiis
+                            eveniet sed deleniti iure eum distinctio. Doloremque eum aliquam necessitatibus sint illum
+                            provident, quisquam rerum aspernatur dolore.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/stardew.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-egg-fill"></i>
+                            Sai mega atualização de Stardew Valley!
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto quod a blanditiis
+                            eveniet sed deleniti iure eum distinctio. Doloremque eum aliquam necessitatibus sint illum
+                            provident, quisquam rerum aspernatur dolore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-3" id="games">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-3">Nosso <span class="text-colored">GAMES</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-games">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#resident-evil" class="fw-bold text-start nav-link text-colored active">Resident Evil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mega-man" class="fw-bold text-start nav-link text-colored">Mega Man</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#street-fighter" class="fw-bold text-start nav-link text-colored">Street Fighter</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#devil-may-cry" class="fw-bold text-start nav-link text-colored">Devil May Cry</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="fw-bold text-start nav-link text-colored">Outros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="resident-evil" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re4-remake.png" alt="coquinha gelada">
+                                        <h5 class="text-colored fw-bold mt-2">RE4 Remake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re-village.png" alt="chris">
+                                        <h5 class="text-colored fw-bold mt-2">RE Village</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re7-biohazard.png" alt="coquinha gelada">
+                                        <h5 class="text-colored fw-bold mt-2">RE7 Biohazard</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re2-remake.png" alt="chris">
+                                        <h5 class="text-colored fw-bold mt-2">RE2 Remake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re-triple-pack.png" alt="coquinha gelada">
+                                        <h5 class="text-colored fw-bold mt-2">RE Triple Pack (4,5 & 6)</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/re3-remake.png" alt="chris">
+                                        <h5 class="text-colored fw-bold mt-2">RE3 Remake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div id="mega-man" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megamamn-x-dive-offline.png" alt="megaman x dive">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megaman-11.png" alt="megaman 11">
+                                        <h5 class="text-colored fw-bold mt-2">Megaman 11</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megaman-x.png" alt="megaman x">
+                                        <h5 class="text-colored fw-bold mt-2">Megaman X</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megaman-battle-network.png" alt="megaman battle network">
+                                        <h5 class="text-colored fw-bold mt-2">Megaman Battle Network</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megaman-zero-zx.png" alt="megman zero zx">
+                                        <h5 class="text-colored fw-bold mt-2">Megaman Zero ZX</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/megaman-legacy-collection.png" alt="legacy collection">
+                                        <h5 class="text-colored fw-bold mt-2">Megaman Legacy Collection</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="street-fighter" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/street-fighter-6.png" alt="street fighter 6">
+                                        <h5 class="text-colored fw-bold mt-2">Street Fighter 6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/street-fighter-5.png" alt="street fighter 5">
+                                        <h5 class="text-colored fw-bold mt-2">Street Fighter 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/street-fighter-4.png" alt="street fighter 4">
+                                        <h5 class="text-colored fw-bold mt-2">Street Fighter 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/street-fighter-4-champion-edition.png" alt="street fighter 4 CE">
+                                        <h5 class="text-colored fw-bold mt-2">Street Fighter 4: Champion Edition</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/street-fighter-30th-col.png" alt="street fighter 30th collection">
+                                        <h5 class="text-colored fw-bold mt-2">Street Fighter: 30th Aniversary Collection</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ultra-street-fighter-2.png" alt="ultra street fighter 2">
+                                        <h5 class="text-colored fw-bold mt-2">Ultra Street Fighter 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="devil-may-cry" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-1.png" alt="dmc 1">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-2.png" alt="dmc 2">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-3.png" alt="dmc 3">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-4.png" alt="dmc 4">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-5.png" alt="dmc 5">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dmc-hd-collection.png" alt="dmc hd collection">
+                                        <h5 class="text-colored fw-bold mt-2">Devil May Cry HD Collection</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="outros" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/asuras-wrath.png" alt="asura's wrath">
+                                        <h5 class="text-colored fw-bold mt-2">Asura's Wrath</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dead-risinh-4.png" alt="DR4">
+                                        <h5 class="text-colored fw-bold mt-2">Dead Rising 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/monster-hunter-world.png" alt="monster hunter">
+                                        <h5 class="text-colored fw-bold mt-2">Monster Hunter: World</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/lost-planet-3.png" alt="lost planet 3">
+                                        <h5 class="text-colored fw-bold mt-2">Lost Planet 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/dragons-dogma-2.png" alt="dragons dogma">
+                                        <h5 class="text-colored fw-bold mt-2">Dragon's Dogma 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/Exporimal.png" alt="exporimal">
+                                        <h5 class="text-colored fw-bold mt-2">Exporimal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="contact">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="nome">Seu nome:</label>
+                                <input class="form-control" type="text" id="nome" name="nome">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="email">Seu e-mail:</label>
+                                <input class="form-control" type="email" id="email" name="email">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="telefone">Seu telefone (opicional):</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="mensagem">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua dos Bobos, 0, Esmero - Casa Engraçada - BJ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="rodape">
+        <footer class="text-center fw-bold p-3">
+            &copy; Todos os direitos reservados | Code Tech - 2024
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

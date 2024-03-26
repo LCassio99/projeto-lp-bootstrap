@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar,
+.rodape {
+    background-color: #1059A4;
+    color: #FCCA08;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #FCCA08;
+    color: #1059A4;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-games .nav-link.active:hover {
+    color: #FCCA08;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+
+.section-title {
+    font-family: 'ITC Korinna Std', sans-serif;
+}
+
+#about,
+#games {
+    background-color: #e6e6ff;
+}
+
+.text-colored {
+    color: #1059A4;
+}
+
+.nav-games .nav-link.active,
+#contact button {
+    background-color: #1059A4;
+    color: #fff;
+}
+
+.nav-games .nav-link.active:hover {
+    color: #FCCA08;
+}
+
+.nav-games .nav-link:hover {
+    color: #FCCA08;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
